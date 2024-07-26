@@ -1,0 +1,7 @@
+.DogNavBar {
+    background-color: orange;
+}
+
+div.DogNavBar {
+    display: inline-block;
+}
