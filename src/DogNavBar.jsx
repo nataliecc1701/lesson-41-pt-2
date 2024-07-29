@@ -8,6 +8,9 @@ const DogNavBar = ({dogs}) => {
         <div>
             <Link to="/dogs">Dogs Index</Link>
         </div>
+        <div>
+            <Link to="/colors">Colors Index</Link>
+        </div>
         {dogs.map((dog) => {
             return <div key={dog.src}>
                 <Link to={`/dogs/${dog.src}`}>{dog.name}</Link>
